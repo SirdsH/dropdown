@@ -10,6 +10,7 @@
 }
 
 .select {
+    text-align-last:center;
     font-size: 30px;
     padding: 8px 12px;
     color: white;
@@ -29,8 +30,8 @@
 }
 
 .select option {
-    background: #2da8d8ff;
-    color: black;
+    background: #2a2b2dff;
+    color: white;
 }
 
 .div {
