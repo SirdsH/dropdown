@@ -1,10 +1,9 @@
-let select = document.getElementById("select"),
-    arr = ["1", "2", "3", "Here We END"];
+let btn = document.getElementById("btn");
+let list = document.getElementById("list");
 
-for (let i = 0; i < arr.length; i++) {
-    let option = document.createElement("option"),
-        txt = document.createTextNode(arr[i]);
-    option.appendChild(txt);
-    option.setAttribute("value", arr[i]);
-    select.insertBefore(option, select.lastChild);
-}
+list.style.display = "none";
+btn.addEventListener("click",(event) =>{
+    if (list.style.display == "none"){
+        list.style.display = "block";
+    } else {list.style.display = "none"}
+})

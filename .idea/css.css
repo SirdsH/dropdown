@@ -1,41 +1,63 @@
 * {
-    background-color: #d9514eff;
     margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: 45%;
-
+    padding: 0;
+    background-color: #d9514eff;
 }
 
-.select {
-    text-align-last:center;
+.container {
+    width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    color: black;
+    margin-top: 3em;
+    position: absolute;
+    top: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 35%;
     font-size: 30px;
-    padding: 8px 12px;
+}
+
+.btn {
+    font-size: 30px;
     color: white;
     background-color: #2a2b2dff;
+    padding: 0.5em 11%;
     border: 1px solid #2a2b2dff;
     cursor: pointer;
-    border-radius: 5px;
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
+    border-radius: 10px;
 }
 
-.select:focus,
-.select:hover {
-    outline: none;
-    border: 1px solid;
-}
-
-.select option {
-    background: #2a2b2dff;
+ul {
     color: white;
+    list-style: none;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+}
+
+ul li {
+    background-color: #2a2b2dff;
+    padding: 0.5em;
+    top: 50px;
+    border: none;
+}
+
+ul li:hover {
+    background-color: white;
+    color: black;
 }
 
 .div {
-    left: 75px;
+    display: table;
+    margin-top: 550px;
+    margin-right: auto;
+    margin-left: 103vh;
     font-size: 30px;
-    top: 100px;
 }
