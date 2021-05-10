@@ -1,0 +1,40 @@
+* {
+    background-color: #d9514eff;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 45%;
+
+}
+
+.select {
+    font-size: 30px;
+    padding: 8px 12px;
+    color: white;
+    background-color: #2a2b2dff;
+    border: 1px solid #2a2b2dff;
+    cursor: pointer;
+    border-radius: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.select:focus,
+.select:hover {
+    outline: none;
+    border: 1px solid;
+}
+
+.select option {
+    background: #2da8d8ff;
+    color: black;
+}
+
+.div {
+    left: 75px;
+    font-size: 30px;
+    top: 100px;
+}
